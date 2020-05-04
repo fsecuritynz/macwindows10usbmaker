@@ -18,6 +18,8 @@ Requirements:
   
 [2] You have the 'brew' package manager installed
   - To install the brew package manager run the following command from your admin teminal (DO NOT RUN AS ROOT (with SUDO))
+  
+  
   "/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   
 [3] A 8GB USB drive
