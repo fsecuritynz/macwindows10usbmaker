@@ -22,3 +22,5 @@ Requirements:
   
 [3] A 8GB USB drive
 
+[4] A Windows 10 ISO
+  - Available here https://www.microsoft.com/en-us/software-download/windows10ISO 
