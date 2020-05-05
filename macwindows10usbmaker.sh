@@ -93,7 +93,7 @@ copyfiles() {
                 echo "############################################################"
 	else
 		echo "You chose not to copy... Goodbye"
-
+	fi
 }
 
 
