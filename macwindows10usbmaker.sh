@@ -88,9 +88,12 @@ copyfiles() {
 		rsync -vha --exclude=sources/install.wim /Volumes/$volname/ /Volumes/WIN10USB/
 		wimlib-imagex split /Volumes/$volname/sources/install.wim /Volumes/WIN10USB/sources/install.swm 4000
 		echo ""
-	        echo "############################################################"
-		echo "***** COPY FINISHED - PLEASE EJECT THE DISK
-                echo "############################################################"
+		echo "Ejecting Windows ISO"
+		sudo hdiutil unmount /Volumes/$volname
+		echo ""
+		echo "Unmounting the USB"
+		sudo hdiutil unmount /Volumes/WIN10USB
+
 	else
 		echo "You chose not to copy... Goodbye"
 	fi
