@@ -3,6 +3,7 @@
 clear
 
 welcome() {
+	mw10usbdmver=1.0
 	echo "############################################################"
 	echo " macOS Windows10 USB disk maker"
 	echo " "
