@@ -4,11 +4,11 @@ Create a bootable Windows 10 USB disk from macOS
 
 # Built and tested using macOS Catalina 10.15.4
 
-#########################################################
+
 #
 # WARNING: THIS IS NOT DESIGNED FOR USE WITH BOOTCAMP!!!
 #
-#########################################################
+
 
 
 Requirements:
@@ -17,7 +17,8 @@ Requirements:
   - To enable sudo on macOS Catalina follow this guide https://support.apple.com/en-au/HT204012 
   
 [2] You have the 'brew' package manager installed
-  - To install the brew package manager run the following command from your admin teminal (DO NOT RUN AS ROOT (with SUDO))
+  - To install the brew package manager run the following command from your admin teminal
+  - Do NOT run this script as root (with sudo)
   
   
   "/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
